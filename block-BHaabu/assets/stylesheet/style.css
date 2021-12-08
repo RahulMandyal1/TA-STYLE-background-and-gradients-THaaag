@@ -1,0 +1,105 @@
+ /* css reset starts here  */
+
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset  ends here  */
+/* custom css starts  here  */
+*{
+ box-sizing: border-box;   
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: 50px 14%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url("../mountain2.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home-section .gradient-box-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.home-section .gradient-box-container .gradient-box{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.box1{
+    background-color: #FF0248;
+}
+
+.box2{
+    background: linear-gradient(to right , rgba(17, 1, 1, 0.589),rgba(215,5,63,1) 75%);
+}
+
+.box3{
+    background:radial-gradient(rgb(245,2,70),rgb(136,27,50),rgb(81,39,39));
+}
+
+
+.image-wrapper{
+    width: 90%;
+    height: 300px;
+    margin:  80px auto;
+    padding: 0px 40px;
+    background-color: red;
+    background: linear-gradient(rgba(156,104,76,.1),rgba(179,118,93,.6)),url('../mountain2.jpg') 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
