@@ -1,0 +1,261 @@
+ /* css reset starts here  */
+
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset  ends here  */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #1D2029;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #7A85A3;
+}
+svg{
+    width: 10px;
+    height: 10px;
+}
+img{
+    width: 30px;
+    height: 30px;
+
+}
+span{
+    margin: 0 0 0 3px;
+    color: #2ECC71;
+    font-size: 12px;
+}
+.short-down{
+    color: #C70E00;
+}
+  
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #20222F;
+    width: 100%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 11% 10px 11%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:  0px 5px 10px rgba(0, 0, 0,0.1);
+    z-index: -1;
+}
+header h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #FDFEFF;
+}
+header a{
+    display: inline-block;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+}
+header .changemode-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 26px;
+    align-items: center;
+}
+.changemode-wrapper span {
+    color: #7A85A3;
+    font-weight:500;
+}
+
+header .changemode-wrapper .changemode-container{
+    width: 50px;
+    height:26px;
+    background: linear-gradient(to right,#4996CB,#41C599);
+    border-radius: 30px;
+}
+header .changemode-wrapper .changemode-container .changemode{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #242C43;
+    margin: 3px;
+}
+
+/* header ends  here  */
+/* Follower Dashboard section starts here   */
+#Follower-Dashboard{
+    position: relative;
+    margin: 110px 0 0 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 11%;
+}
+#Follower-Dashboard .Counter-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap ;
+    
+    
+}
+#Follower-Dashboard .Counter-container .counter-box{
+    width: 270px;
+    height: 200px;
+    background: #252B43;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0,0.1);
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.Counter-container .counter-box{
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    justify-content: center;
+}
+.Counter-container .facebook , .twitter{
+  border-top:  3px solid #198FF3;
+}
+.Counter-container .youtube{
+    border-top:  3px solid #BF0428;
+} 
+.instagram-counter{
+    position: relative;
+    width: 100%;
+}
+.instagram-counter .instagram-counter-border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right,rgb(237,129,40),rgb(246,211,115),rgb(214,41,119));
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.Counter-container .counter-box .brandusername{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.Counter-container .counter-box .brandusername span{
+    color: #7A85A3;
+    font-size: 15px;
+    margin: 0 0 0 5px;
+}
+.Counter-container .counter-box .follower-count h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 12px 0 0 0;
+}
+.Counter-container .counter-box .follower-count h5{
+    letter-spacing: 5px;
+    font-size: 15px;
+    color: #7A85A3;
+    margin: 5px 0 12px 0;
+}
+
+.Counter-container .counter-box .follower-count .today-followers{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/* Follower Dashbaord section ends here  */
+
+/* overview  counter starts  here  */
+.Overview-counter{
+    margin: 40px 0 0 0;
+  
+    
+}
+.Overview-counter h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.Overview-counter-container {
+    display: flex;
+    justify-content: space-between;
+   flex-flow: row wrap;
+}
+.Overview-counter .overview-box{
+    width: 270px;
+    height: 140px;
+    background: #252B43;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0,0.1);
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+.overview-box .about-account{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.overview-box .about-account h4{
+    color: #7A85A3;
+    word-spacing: -2px;
+}
+.overview-box .Account-data h3{
+    font-size:40px;
+    font-weight: 500;
+}
+.overview-box .Account-data{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+/* overview counter ends  here  */
